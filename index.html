@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuous Scrolling PDF Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+</head>
+<body>
+    <div class="controls">
+        <button id="zoom-out">-</button>
+        <span id="zoom-level">100%</span>
+        <button id="zoom-in">+</button>
+        <input type="file" id="file-input" accept=".pdf" />
+    </div>
+    <div id="pdf-viewer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
